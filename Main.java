@@ -88,9 +88,7 @@ class Bayes {
         }
         return resultado;
     }
-    // clases size del arreglo porcentajecaracteristica = clases*2
-    // ["maquinaA", "MAquinaB" ,"Maquina C"];
-    // [.2,.98, .3,.97]
+   
     
     public void preguntarAciertoErrorCaTegoria(){
         for(int i=0;i<(clases);i++){
@@ -127,8 +125,6 @@ class Bayes {
         return true;
     }
 
-    // 10
-    // 1,3,5,7,9
     public double probSuma(){
         double res=0;
         for(int i=0 ; i< clases ; i++){
@@ -168,22 +164,3 @@ class Bayes {
 }
 
 
-// int[] numeros = new int[] { 28, 50, 40, 200, 20, 44, 100, 153 };
-// // Asumir que el mayor es el primero
-// int mayor = numeros[0];
-// // Recorrer arreglo y ver si no es así
-// // (comenzar desde el 1 porque el 0 ya lo tenemos contemplado arriba)
-// for (int x = 1; x < numeros.length; x++) {
-//     if (numeros[x] > mayor) {
-//         mayor = numeros[x];
-//     }
-// }
-// System.out.println("El mayor es: " + mayor);
-
-
-
-// 1.- preguntas para definir clases y categorías
-// 2.- porcentajes
-// 3.- ["maquinaA", "MAquinaB" ,"Maquina C"];
-//  4.- [.21, .23, .34]; 
-//  4.- [.1,.99]
